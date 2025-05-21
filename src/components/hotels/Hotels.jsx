@@ -31,12 +31,19 @@ const Hotels = () => {
             slidesPerView: 3,
           },
           1200: {
-            slidesPerView: 4,
+            slidesPerView: 3,
           },
         }}
       >
         {hotelsData.slice(0, 8).map((item) => (
-          <SwiperSlide key={item?.id}>
+          <SwiperSlide
+            key={item?.id}
+            style={{
+              backgroundColor: "#fff",
+              padding: "25px",
+              borderRadius: "20px",
+            }}
+          >
             <Link
               to={`/hotel-single-v1/${item.id}`}
               className="hotelsCard -type-1 hover-inside-slider"
@@ -60,6 +67,7 @@ const Hotels = () => {
                             <img
                               className="rounded-4 col-12 js-lazy"
                               src={slide}
+                              // src="https://www.maurya.com/wp-content/uploads/2017/09/Svasara-Suite-thumb.jpg"
                               alt="image"
                             />
                           </SwiperSlide>
@@ -69,62 +77,70 @@ const Hotels = () => {
                   </div>
                 </div>
                 {/* End .cardImage */}
-
-                <div className="cardImage__wishlist">
-                  <button className="button -blue-1 bg-white size-30 rounded-full shadow-2">
-                    <i className="icon-heart text-12" />
-                  </button>
-                </div>
-
-                <div className="cardImage__leftBadge">
-                  <div
-                    className={`py-5 px-15 rounded-right-4 text-12 lh-16 fw-500 uppercase ${
-                      isTextMatched(item?.tag, "breakfast included")
-                        ? "bg-dark-1 text-white"
-                        : ""
-                    } ${
-                      isTextMatched(item?.tag, "best seller")
-                        ? "bg-blue-1 text-white"
-                        : ""
-                    } 
-                    ${
-                      isTextMatched(item?.tag, "-25% today")
-                        ? "bg-brown-1 text-white"
-                        : ""
-                    } 
-                     ${
-                       isTextMatched(item?.tag, "top rated")
-                         ? "bg-yellow-1 text-dark-1"
-                         : ""
-                     }`}
-                  >
-                    {item?.tag}
-                  </div>
-                </div>
               </div>
+
+               
+               <div className="d-flex items-center mt-3 ">
+                
+                  
+                  <div className="text-blue-1 text-dark" style={{border:"1px solid black", borderRadius:'20px', paddingInline:'15px'}}><h5>{item?.basic}</h5></div>
+                <div className="text-blue-1  mx-2" style={{border:"1px solid gray", borderRadius:'20px', paddingInline:'15px'}}><h5 style={{color:"gray"}}>{item?.premium}</h5></div>
+               </div>
+
+
               <div className="hotelsCard__content mt-10">
-                <h4 className="hotelsCard__title text-dark-1 text-18 lh-16 fw-500">
+                <h4 className="hotelsCard__title text-dark-1  lh-16 fw-500">
                   <span>{item?.title}</span>
                 </h4>
-                <p className="text-light-1 lh-14 text-14 mt-5">
-                  {item?.location}
-                </p>
-                <div className="d-flex items-center mt-20">
-                  <div className="flex-center bg-blue-1 rounded-4 size-30 text-12 fw-600 text-white">
-                    {item?.ratings}
+                <div className="d-flex justify-content-between">
+                  <div className="d-flex flex-column">
+                    <p
+                      style={{
+                        color: "#454545",
+                        fontSize: "20px",
+                        fontWeight: "bold",
+                      }}
+                    >
+                      Destination
+                    </p>
+                    <p className="text-dark-1 lh-14 text-14 mt-5">
+                      <i className="icon-location text-15 mr-10" />
+                      {item?.location}
+                    </p>
                   </div>
-                  <div className="text-14 text-dark-1 fw-500 ml-10">
-                    Exceptional
-                  </div>
-                  <div className="text-14 text-light-1 ml-10">
-                    {item?.numberOfReviews} reviews
+                  <div className="d-flex flex-column">
+                    <p
+                      style={{
+                        color: "#454545",
+                        fontSize: "20px",
+                        fontWeight: "bold",
+                      }}
+                    >
+                      Duration
+                    </p>
+                    <p className="text-dark-1 lh-14 text-14 mt-5">
+                      <i className="icon-clock text-15 mr-10" />{" "}
+                      {item?.duration}
+                    </p>
                   </div>
                 </div>
-                <div className="mt-5">
-                  <div className="fw-500">
-                    Starting from{" "}
-                    <span className="text-blue-1">US${item?.price}</span>
+
+                <hr />
+
+                <div className="d-flex justify-content-between items-center">
+                  <div className="mt-5 d-flex flex-column">
+                    <div className="fw-500">Starting from </div>
+                    <div className="text-blue-1 text-bold">
+                      <h2>$ {item?.price}</h2>
+                    </div>
                   </div>
+                  <button
+                    href="#"
+                    className="button -dark-1 bg-blue-1 text-white w-50 rounded-10"
+                    style={{ height: "3em", borderRadius: "20px" }}
+                  >
+                    Book Now
+                  </button>
                 </div>
               </div>
             </Link>
@@ -132,7 +148,7 @@ const Hotels = () => {
         ))}
       </Swiper>
 
-      <div className="d-flex x-gap-15 items-center justify-center sm:justify-start pt-40 sm:pt-20">
+      <div className="d-flex x-gap-15 items-center justify-center sm:justify-center pt-40 sm:pt-20">
         <div className="col-auto">
           <button className="d-flex items-center text-24 arrow-left-hover js-hotels-prev">
             <i className="icon icon-arrow-left" />
