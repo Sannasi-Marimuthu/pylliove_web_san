@@ -106,7 +106,7 @@ const HotelProperties = () => {
                 
 
                   <Link
-                    to={`/hotel-single-v1/${item.id}`}
+                    to={`/hotel-single/${item.id}`}
                     className="button -md -dark-1 bg-blue-1 text-white mt-24" style={{borderRadius:"10px", height:"30px"}}
                   >
                     See Booking Option

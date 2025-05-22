@@ -81,6 +81,7 @@ import CruiseSingleV1Dynamic from "./pages/cruise/cruise-single";
 import FlightListPage1 from "./pages/flight/flight-list-v1";
 import Contact from "./pages/others/contact";
 import Destinations from "./pages/others/destinations";
+import HotelSingleDynamic from "./pages/hotel/hotel-single";
 
 function App() {
   useEffect(() => {
@@ -98,6 +99,9 @@ function App() {
             <Route path="/">
               <Route index element={<Home />} />
               <Route path="hotelList" element={<HotelList />} />
+               <Route
+                path="hotel-single/:id"
+                element={<HotelSingleDynamic />} />
 
               <Route path="home_1" element={<Home_1 />} />
               <Route path="home_2" element={<Home_2 />} />

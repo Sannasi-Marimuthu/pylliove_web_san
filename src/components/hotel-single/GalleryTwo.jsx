@@ -6,7 +6,8 @@ import PopularFacilities from "@/components/hotel-single/PopularFacilities";
 import ModalVideo from "react-modal-video";
 import SidebarRight2 from "@/components/hotel-single/SidebarRight2";
 import RatingBox from "@/components/hotel-single/RatingBox";
-import PropertyHighlights2 from "@/components/hotel-single/PropertyHighlights2";
+// import PropertyHighlights2 from "@/components/hotel-single/PropertyHighlights2";
+// import HotelTabs from "./HotelTabs";
 
 export default function GalleryTwo({ hotel }) {
   const [isOpen, setOpen] = useState(false);
@@ -43,18 +44,14 @@ export default function GalleryTwo({ hotel }) {
                         />
                       )}
                     </Item>
-                    <div className="absolute px-20 py-20">
-                      <button className="button -blue-1 size-40 rounded-full bg-white">
-                        <i className="icon-heart text-16" />
-                      </button>
-                    </div>
+                   
                   </div>
                   {/* End .galleryGrid__item */}
 
                   <div className="galleryGrid__item">
                     <Item
-                      original="/img/gallery/1/2.png"
-                      thumbnail="/img/gallery/1/2.png"
+                      original="https://thumbs.dreamstime.com/b/hotel-room-beautiful-orange-sofa-included-43642330.jpg"
+                      thumbnail="https://thumbs.dreamstime.com/b/hotel-room-beautiful-orange-sofa-included-43642330.jpg"
                       width={450}
                       height={375}
                     >
@@ -62,7 +59,7 @@ export default function GalleryTwo({ hotel }) {
                         <img
                           ref={ref}
                           onClick={open}
-                          src="/img/gallery/1/2.png"
+                          src="https://thumbs.dreamstime.com/b/hotel-room-beautiful-orange-sofa-included-43642330.jpg"
                           alt="image"
                           className="rounded-4"
                           role="button"
@@ -74,8 +71,8 @@ export default function GalleryTwo({ hotel }) {
 
                   <div className="galleryGrid__item">
                     <Item
-                      original="/img/gallery/1/3.png"
-                      thumbnail="/img/gallery/1/3.png"
+                      original="https://media.istockphoto.com/id/1392171961/photo/portrait-of-an-asian-tourist-woman-standing-nearly-window-looking-to-beautiful-view-with-her.jpg?s=612x612&w=0&k=20&c=Q4GVjzoG10bpmXW4GzbdFtOhpjbkTD1U3HN_yfCZ6t8="
+                      thumbnail="https://media.istockphoto.com/id/1392171961/photo/portrait-of-an-asian-tourist-woman-standing-nearly-window-looking-to-beautiful-view-with-her.jpg?s=612x612&w=0&k=20&c=Q4GVjzoG10bpmXW4GzbdFtOhpjbkTD1U3HN_yfCZ6t8="
                       width={450}
                       height={375}
                     >
@@ -83,7 +80,7 @@ export default function GalleryTwo({ hotel }) {
                         <img
                           ref={ref}
                           onClick={open}
-                          src="/img/gallery/1/3.png"
+                          src="https://media.istockphoto.com/id/1392171961/photo/portrait-of-an-asian-tourist-woman-standing-nearly-window-looking-to-beautiful-view-with-her.jpg?s=612x612&w=0&k=20&c=Q4GVjzoG10bpmXW4GzbdFtOhpjbkTD1U3HN_yfCZ6t8="
                           alt="image"
                           className="rounded-4"
                           role="button"
@@ -95,14 +92,14 @@ export default function GalleryTwo({ hotel }) {
 
                   <div className="galleryGrid__item relative d-flex justify-end items-end">
                     <img
-                      src="/img/gallery/1/4.png"
+                      src="https://media.istockphoto.com/id/452626285/photo/hong-kong-hotel-room.jpg?s=612x612&w=0&k=20&c=AibmfrXuTm6pWDV6wvI-X9OEakdMyQKhrDoCR2mgUZ8="
                       alt="image"
                       className="rounded-4"
                     />
                     <div className="absolute px-10 py-10 col-12 h-full d-flex justify-end items-end">
                       <Item
-                        original="/img/gallery/1/4.png"
-                        thumbnail="/img/gallery/1/4.png"
+                        original="https://media.istockphoto.com/id/452626285/photo/hong-kong-hotel-room.jpg?s=612x612&w=0&k=20&c=AibmfrXuTm6pWDV6wvI-X9OEakdMyQKhrDoCR2mgUZ8="
+                        thumbnail="https://media.istockphoto.com/id/452626285/photo/hong-kong-hotel-room.jpg?s=612x612&w=0&k=20&c=AibmfrXuTm6pWDV6wvI-X9OEakdMyQKhrDoCR2mgUZ8="
                         width={362}
                         height={302}
                       >
@@ -133,13 +130,6 @@ export default function GalleryTwo({ hotel }) {
                       </h1>
                     </div>
                     {/* End .col */}
-                    <div className="col-auto">
-                      <i className="icon-star text-10 text-yellow-1" />
-                      <i className="icon-star text-10 text-yellow-1" />
-                      <i className="icon-star text-10 text-yellow-1" />
-                      <i className="icon-star text-10 text-yellow-1" />
-                      <i className="icon-star text-10 text-yellow-1" />
-                    </div>
                   </div>
                   {/* End .row */}
 
@@ -149,14 +139,9 @@ export default function GalleryTwo({ hotel }) {
                         <i className="icon-location-2 text-16 mr-5" />
                         {hotel?.location}
                       </div>
-                    </div>
-                    <div className="col-auto">
-                      <button
-                        data-x-click="mapFilter"
-                        className="text-blue-1 text-15 underline"
-                      >
-                        Show on map
-                      </button>
+                    <p className="text-16">Experience a blend of comfort and luxury at this property featuring stylish rooms, three dining venues,
+
+and a host of amenities.</p>
                     </div>
                   </div>
                   {/* End .row */}
@@ -164,22 +149,27 @@ export default function GalleryTwo({ hotel }) {
                 {/* End .col */}
 
                 <div className="col-auto">
-                  <div className="text-14 text-md-end">
-                    From{" "}
-                    <span className="text-22 text-dark-1 fw-500">
-                      US${hotel?.price}
-                    </span>
+                  <div className="text-22 text-dark-1 fw-500">
+                   Amenities
+                  <p className="text-14">Amenities rated 4.2 by guests</p>
                   </div>
-                  <a
-                    href="#"
-                    className="button h-50 px-24 -dark-1 bg-blue-1 text-white"
-                  >
-                    Select Room <div className="icon-arrow-top-right ml-15" />
-                  </a>
+                </div>
+
+                <div className="d-flex justify-content-between">
+                  
+                    <p className="text-14">Restaurant</p>
+                    <p className="text-14">Gym</p>
+                    <p className="text-14">Indoor Games</p>
+                    <p className="text-14">24 hour Room Service</p>
+                    <p className="text-14">Bar</p>
+                    <p className="text-16" style={{color:"#61aa61"}}>+20 Amenities</p>
+               
                 </div>
                 {/* End .col */}
               </div>
               {/* End .row */}
+
+             
 
               <div id="overview" className="row y-gap-40 pt-40 ">
                 <div className="col-12">
@@ -204,10 +194,14 @@ export default function GalleryTwo({ hotel }) {
             <div>
               <SidebarRight2 />
               <RatingBox hotel={hotel} />
-              <PropertyHighlights2 />
+              
             </div>
             {/* End right content */}
+
+                   
           </div>
+
+
         </div>
         {/* End .container */}
       </section>

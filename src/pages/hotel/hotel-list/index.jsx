@@ -26,7 +26,7 @@ const HotelList = () => {
       <Header11 />
       {/* End Header 1 */}
 <div style={{ backgroundColor: "#ecf0f7" }}>
-      <section className=" pb-40" style={{marginLeft:"10em"}}>
+      <section className=" pb-40" style={{marginLeft:"10em", marginTop:"5em"}}>
         <div className="container">
           <div className="row">
             <div className="col-10">

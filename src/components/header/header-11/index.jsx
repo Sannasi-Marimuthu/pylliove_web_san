@@ -26,7 +26,7 @@ const Header1 = () => {
   return (
     <>
       {" "}
-      <header className={`header bg-white ${navbar ? "is-sticky" : ""}`}>
+      <header className={`header bg-white ${navbar ? "is-sticky" : ""}`} style={{boxShadow: "2px 2px 3px 2px #aaaaaa"}}>
         {/* <div className="header__container px-30 sm:px-20"> */}
         <div className="container  sm:px-20">
           <div className="row justify-between items-center">
