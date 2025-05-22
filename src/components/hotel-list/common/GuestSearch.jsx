@@ -68,7 +68,7 @@ const GuestSearch = () => {
     setGuestCounts((prevState) => ({ ...prevState, [name]: value }));
   };
   return (
-    <div className="searchMenu-guests px-20  lg:py-20 lg:px-0 js-form-dd bg-white position-relative">
+    <div className="searchMenu-guests px-20  lg:py-20 lg:px-0 js-form-dd  position-relative" >
       <div
         data-bs-toggle="dropdown"
         data-bs-auto-close="outside"
@@ -76,7 +76,7 @@ const GuestSearch = () => {
         data-bs-offset="0,22"
       >
         <h4 className="text-15 fw-500 ls-2 lh-16">Guest</h4>
-        <div className="text-15 text-light-1 ls-2 lh-16">
+        <div className="text-15 text-light-1 ls-2 lh-16" style={{backgroundColor:"#eff8f4", padding:"15px", borderRadius:"10px", width:"280px"}}>
           <span className="js-count-adult">{guestCounts.Adults}</span> adults -{" "}
           <span className="js-count-child">{guestCounts.Children}</span>{" "}
           childeren - <span className="js-count-room">{guestCounts.Rooms}</span>{" "}

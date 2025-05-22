@@ -1,7 +1,7 @@
 // import CallToActions from "@/components/common/CallToActions";
 import Header11 from "@/components/header/header-11";
 import DefaultFooter from "@/components/footer/default";
-// import MainFilterSearchBox from "@/components/hotel-list/hotel-list-v1/MainFilterSearchBox";
+import MainFilterSearchBox from "@/components/hotel-list/hotel-list-v1/MainFilterSearchBox";
 import TopHeaderFilter from "@/components/hotel-list/TopHeaderFilter";
 import HotelProperties from "@/components/hotel-list/HotelProperties";
 import Pagination from "@/components/hotel-list/common/Pagination";
@@ -25,23 +25,21 @@ const HotelList = () => {
 
       <Header11 />
       {/* End Header 1 */}
-
-      {/* <section className="pt-40 pb-40 bg-light-2">
+<div style={{ backgroundColor: "#ecf0f7" }}>
+      <section className=" pb-40" style={{marginLeft:"10em"}}>
         <div className="container">
           <div className="row">
-            <div className="col-12">
-              <div className="text-center">
-                <h1 className="text-30 fw-600">Find Your Dream Luxury Hotel</h1>
-              </div>
-              // End text-center
+            <div className="col-10">
+              
+              {/* End text-center */}
               <MainFilterSearchBox />
             </div>
-            // End col-12
+            {/* End col-12 */}
           </div>
         </div>
-      </section> */}
+      </section>
       {/* Top SearchBanner */}
-      <div style={{ backgroundColor: "#ecf0f7" }}>
+     
         <section className="layout-pt-md layout-pb-lg">
           <div className="container">
             <div className="row y-gap-30">

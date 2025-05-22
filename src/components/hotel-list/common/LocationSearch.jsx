@@ -39,14 +39,17 @@ const SearchBar = () => {
 
   return (
     <>
-      <div className="searchMenu-loc px-30 lg:py-20 lg:px-0 js-form-dd js-liverSearch">
+      <div className="searchMenu-loc px-30 lg:py-20 lg:px-0 js-form-dd js-liverSearch" >
         <div
           data-bs-toggle="dropdown"
           data-bs-auto-close="true"
           data-bs-offset="0,22"
+          
         >
           <h4 className="text-15 fw-500 ls-2 lh-16">Location</h4>
-          <div className="text-15 text-light-1 ls-2 lh-16">
+          <div className="text-15 text-light-1 ls-2 lh-16"  style={{backgroundColor:"#eff8f4", padding:"15px", borderRadius:"10px", width:"310px"}}>
+              <div className="d-flex items-center">
+                <i className="icon-location text-16" style={{color:"#051036"}}/>
             <input
               autoComplete="off"
               type="search"
@@ -55,12 +58,14 @@ const SearchBar = () => {
               value={searchValue}
               onChange={(e) => setSearchValue(e.target.value)}
             />
+              </div>
+              
           </div>
         </div>
         {/* End location Field */}
 
-        <div className="shadow-2 dropdown-menu min-width-400">
-          <div className="bg-white px-20 py-20 sm:px-0 sm:py-15 rounded-4">
+        <div className="shadow-2 dropdown-menu min-width-300">
+          <div className="bg-white px-10 py-20 sm:px-0 sm:py-15 rounded-4">
             <ul className="y-gap-5 js-results">
               {locationSearchContent.map((item) => (
                 <li
