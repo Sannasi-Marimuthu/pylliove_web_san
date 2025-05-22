@@ -14,8 +14,8 @@ import Activity2 from "@/components/activity/Activity2";
 import MetaComponent from "@/components/common/MetaComponent";
 
 const metadata = {
-  title: "Home-6 || GoTrip - Travel & Tour ReactJs Template",
-  description: "GoTrip - Travel & Tour ReactJs Template",
+  title: "Home-6 || Py Ollive -- Hotel Rooms & Conference Hall Booking ",
+  description: "Py Ollive -- Hotel Rooms & Conference Hall Booking ",
 };
 
 const Home_6 = () => {

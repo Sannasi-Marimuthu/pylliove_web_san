@@ -10,8 +10,8 @@ import CarPropertes from "@/components/car-list/car-list-v1/CarPropertes";
 import MetaComponent from "@/components/common/MetaComponent";
 
 const metadata = {
-  title: "Car List v1 || GoTrip - Travel & Tour ReactJs Template",
-  description: "GoTrip - Travel & Tour ReactJs Template",
+  title: "Car List v1 || Py Ollive -- Hotel Rooms & Conference Hall Booking ",
+  description: "Py Ollive -- Hotel Rooms & Conference Hall Booking ",
 };
 
 const CarListPage1 = () => {

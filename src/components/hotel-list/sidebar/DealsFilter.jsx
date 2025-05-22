@@ -1,8 +1,7 @@
 const DealsFilter = () => {
   const dealsData = [
-    { label: "Free cancellation" },
-    { label: "Reserve now, pay at stay" },
-    { label: "Properties with special offers" },
+    { label: "Olliv Stays" },
+    { label: "Flexible Check In" }
   ];
 
   return (

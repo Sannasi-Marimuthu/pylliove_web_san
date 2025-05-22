@@ -56,7 +56,7 @@ const Navbar = () => {
                 </div>
                 {/* humberger menu */}
 
-                <Link to="/" className="header-logo mr-20">
+                <Link to={"/hotelList"} className="header-logo mr-20">
                   <img src="/img/general/pylliove_logo1.png" alt="logo icon" />
                   <img src="/img/general/pylliove_logo1.png" alt="logo icon" />
                 </Link>

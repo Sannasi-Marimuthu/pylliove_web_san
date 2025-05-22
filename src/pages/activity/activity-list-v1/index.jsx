@@ -10,8 +10,8 @@ import Sidebar from "@/components/activity-list/activity-list-v1/Sidebar";
 import MetaComponent from "@/components/common/MetaComponent";
 
 const metadata = {
-  title: "Activity List v1 || GoTrip - Travel & Tour ReactJs Template",
-  description: "GoTrip - Travel & Tour ReactJs Template",
+  title: "Activity List v1 || Py Ollive -- Hotel Rooms & Conference Hall Booking ",
+  description: "Py Ollive -- Hotel Rooms & Conference Hall Booking ",
 };
 
 const ActivityListPage1 = () => {

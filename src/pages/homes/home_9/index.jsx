@@ -15,8 +15,8 @@ import SearchBoxContent from "@/components/hero/hero-9/SearchBoxContent";
 import MetaComponent from "@/components/common/MetaComponent";
 
 const metadata = {
-  title: "Home-9 || GoTrip - Travel & Tour ReactJs Template",
-  description: "GoTrip - Travel & Tour ReactJs Template",
+  title: "Home-9 || Py Ollive -- Hotel Rooms & Conference Hall Booking ",
+  description: "Py Ollive -- Hotel Rooms & Conference Hall Booking ",
 };
 
 const Home_9 = () => {

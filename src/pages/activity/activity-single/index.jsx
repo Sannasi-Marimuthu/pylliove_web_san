@@ -21,8 +21,8 @@ import MapPropertyFinder from "@/components/activity-single/MapPropertyFinder";
 import MetaComponent from "@/components/common/MetaComponent";
 
 const metadata = {
-  title: "Activity Single || GoTrip - Travel & Tour ReactJs Template",
-  description: "GoTrip - Travel & Tour ReactJs Template",
+  title: "Activity Single || Py Ollive -- Hotel Rooms & Conference Hall Booking ",
+  description: "Py Ollive -- Hotel Rooms & Conference Hall Booking ",
 };
 
 const ActivitySingleV1Dynamic = () => {

@@ -9,8 +9,8 @@ import DropdownSelelctBar from "@/components/hotel-list/common/DropdownSelelctBa
 import MetaComponent from "@/components/common/MetaComponent";
 
 const metadata = {
-  title: "Hotel List v5 || GoTrip - Travel & Tour ReactJs Template",
-  description: "GoTrip - Travel & Tour ReactJs Template",
+  title: "Hotel List v5 || Py Ollive -- Hotel Rooms & Conference Hall Booking ",
+  description: "Py Ollive -- Hotel Rooms & Conference Hall Booking ",
 };
 
 const HotelListPage5 = () => {

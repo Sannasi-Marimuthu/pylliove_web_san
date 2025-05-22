@@ -23,8 +23,8 @@ import Hotels from "@/components/hotels/Hotels2";
 import MetaComponent from "@/components/common/MetaComponent";
 
 const metadata = {
-  title: "Destinations || GoTrip - Travel & Tour ReactJs Template",
-  description: "GoTrip - Travel & Tour ReactJs Template",
+  title: "Destinations || Py Ollive -- Hotel Rooms & Conference Hall Booking ",
+  description: "Py Ollive -- Hotel Rooms & Conference Hall Booking ",
 };
 
 const Destinations = () => {

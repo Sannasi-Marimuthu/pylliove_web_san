@@ -5,7 +5,7 @@ const Seo = ({ pageTitle }) => (
     {/* <Head>
       <title>
         {pageTitle &&
-          `${pageTitle} || GoTrip - Travel & Tour ReactJs Template}`}
+          `${pageTitle} || Py Ollive -- Hotel Rooms & Conference Hall Booking }`}
       </title>
       <meta name="viewport" content="width=device-width, initial-scale=1" />
     </Head> */}

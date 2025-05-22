@@ -9,8 +9,8 @@ import Pagination from "@/components/activity-list/common/Pagination";
 import MetaComponent from "@/components/common/MetaComponent";
 
 const metadata = {
-  title: "Activity List v3 || GoTrip - Travel & Tour ReactJs Template",
-  description: "GoTrip - Travel & Tour ReactJs Template",
+  title: "Activity List v3 || Py Ollive -- Hotel Rooms & Conference Hall Booking ",
+  description: "Py Ollive -- Hotel Rooms & Conference Hall Booking ",
 };
 
 const ActivityListPage3 = () => {

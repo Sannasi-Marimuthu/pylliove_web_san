@@ -3,7 +3,6 @@ import { useEffect, useState } from "react";
 import MainMenu from "../MainMenu";
 import CurrenctyMegaMenu from "../CurrenctyMegaMenu";
 import LanguageMegaMenu from "../LanguageMegaMenu";
-
 import MobileMenu from "../MobileMenu";
 
 const Header1 = () => {
@@ -26,20 +25,22 @@ const Header1 = () => {
 
   return (
     <>
-      <header className={`header bg-dark-3 ${navbar ? "is-sticky" : ""}`}>
-        <div className="header__container px-30 sm:px-20">
+      {" "}
+      <header className={`header bg-white ${navbar ? "is-sticky" : ""}`}>
+        {/* <div className="header__container px-30 sm:px-20"> */}
+        <div className="container  sm:px-20">
           <div className="row justify-between items-center">
             <div className="col-auto">
               <div className="d-flex items-center">
-                <Link to="/" className="header-logo mr-20">
-                  <img src="/img/general/logo-light.svg" alt="logo icon" />
-                  <img src="/img/general/logo-dark.svg" alt="logo icon" />
+                <Link to="/" className="header-logo mr-50">
+                  <img src="/img/general/pylliove_logo1.png" alt="logo icon" />
+                  <img src="/img/general/pylliove_logo1.png" alt="logo icon" />
                 </Link>
                 {/* End logo */}
 
                 <div className="header-menu">
                   <div className="header-menu__content">
-                    <MainMenu style="text-white" />
+                    <MainMenu style="text-dark-1" />
                   </div>
                 </div>
                 {/* End header-menu */}
@@ -48,48 +49,39 @@ const Header1 = () => {
             </div>
             {/* End col */}
 
+            
+
             <div className="col-auto">
               <div className="d-flex items-center">
-                <div className="row x-gap-20 items-center xxl:d-none">
-                  <CurrenctyMegaMenu textClass="text-white" />
-                  {/* End Megamenu for Currencty */}
-
-                  {/* Start vertical devider*/}
-                  <div className="col-auto">
-                    <div className="w-1 h-20 bg-white-20" />
-                  </div>
-                  {/* End vertical devider*/}
-
-                  <LanguageMegaMenu textClass="text-white" />
-                  {/* End Megamenu for Language */}
-                </div>
-                {/* End language and currency selector */}
-
-                {/* Start btn-group */}
-                <div className="d-flex items-center ml-20 is-menu-opened-hide md:d-none">
+               {/* Start btn-group */}
+                <div className="header__buttons d-flex items-center is-menu-opened-hide mt-30">
                   <Link
-                    to="/login"
-                    className="button px-30 fw-400 text-14 -white bg-white h-50 text-dark-1"
-                  >
-                    Become An Expert
+                    to="/#"
+                    className=" h-50 px-20 fw-400 text-16 -blue-1 bg-white text-dark-1 sm:d-none"
+                  ><img src="https://static-00.iconduck.com/assets.00/profile-major-icon-1024x1024-9rtgyx30.png" alt="" style={{width:"25px", marginRight:"5px"}}/>
+                      My Trips
                   </Link>
                   <Link
                     to="/signup"
-                    className="button px-30 fw-400 text-14 border-white -outline-white h-50 text-white ml-20"
-                  >
-                    Sign In / Register
+                    className="h-25 w-400 text-16 -blue-1 bg-white text-dark-1 sm:d-none" style={{border:"1px solid black", padding:'5px', borderRadius:'40px', marginBottom:'20px'}}
+                  ><img src="/img/general/pylliove_icon.png" alt="" style={{width:"35px"}}/>
+                      Praveen  <i className="icon-chevron-sm-down text-7 ml-10 mx-2"></i>
                   </Link>
+                 
                 </div>
                 {/* End btn-group */}
 
                 {/* Start mobile menu icon */}
-                <div className="d-none xl:d-flex x-gap-20 items-center pl-30 text-white">
+                <div className="d-none xl:d-flex x-gap-20 items-center pl-30 text-dark-1">
+                  
                   <div>
                     <Link
-                      to="/login"
+                      to="/#"
                       className="d-flex items-center icon-user text-inherit text-22"
                     />
                   </div>
+
+
                   <div>
                     <button
                       className="d-flex items-center icon-menu text-inherit text-20"
@@ -119,6 +111,7 @@ const Header1 = () => {
         </div>
         {/* End header_container */}
       </header>
+      {/* End Header */}
     </>
   );
 };

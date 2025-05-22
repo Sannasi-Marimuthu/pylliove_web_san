@@ -9,8 +9,8 @@ import TopHeaderFilter from "@/components/hotel-list/hotel-list-v3/TopHeaderFilt
 import MetaComponent from "@/components/common/MetaComponent";
 
 const metadata = {
-  title: "Hotel List v3 || GoTrip - Travel & Tour ReactJs Template",
-  description: "GoTrip - Travel & Tour ReactJs Template",
+  title: "Hotel List v3 || Py Ollive -- Hotel Rooms & Conference Hall Booking ",
+  description: "Py Ollive -- Hotel Rooms & Conference Hall Booking ",
 };
 
 const HotelListPage3 = () => {

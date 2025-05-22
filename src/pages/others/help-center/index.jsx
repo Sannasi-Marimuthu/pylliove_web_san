@@ -8,8 +8,8 @@ import HelpBlock from "@/components/block/HelpBlock";
 import MetaComponent from "@/components/common/MetaComponent";
 
 const metadata = {
-  title: "Help Center || GoTrip - Travel & Tour ReactJs Template",
-  description: "GoTrip - Travel & Tour ReactJs Template",
+  title: "Help Center || Py Ollive -- Hotel Rooms & Conference Hall Booking ",
+  description: "Py Ollive -- Hotel Rooms & Conference Hall Booking ",
 };
 
 const HelpCenter = () => {

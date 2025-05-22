@@ -9,8 +9,8 @@ import Sidebar from "@/components/rental-list/rental-list-v2/Sidebar";
 import MetaComponent from "@/components/common/MetaComponent";
 
 const metadata = {
-  title: "Rental List v2 || GoTrip - Travel & Tour ReactJs Template",
-  description: "GoTrip - Travel & Tour ReactJs Template",
+  title: "Rental List v2 || Py Ollive -- Hotel Rooms & Conference Hall Booking ",
+  description: "Py Ollive -- Hotel Rooms & Conference Hall Booking ",
 };
 
 const RentalListPage2 = () => {

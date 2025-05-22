@@ -6,8 +6,8 @@ import NotFound from "@/components/common/NotFound";
 import MetaComponent from "@/components/common/MetaComponent";
 
 const metadata = {
-  title: "404 || GoTrip - Travel & Tour ReactJs Template",
-  description: "GoTrip - Travel & Tour ReactJs Template",
+  title: "404 || Py Ollive -- Hotel Rooms & Conference Hall Booking ",
+  description: "Py Ollive -- Hotel Rooms & Conference Hall Booking ",
 };
 
 const BecomeExpart = () => {

@@ -1,10 +1,15 @@
 const popularFilters = () => {
   const filters = [
-    { label: "Breakfast Included", count: 92 },
-    { label: "Romantic", count: 45 },
-    { label: "Airport Transfer", count: 21 },
-    { label: "WiFi Included", count: 78 },
-    { label: "5 Star", count: 679 },
+    { label: "GoStays", count: 58 },
+    { label: "Book @ 0 ", count: 815 },
+    { label: "Flexible Check In", count: 26 },
+    { label: "Daily Steal Deal ", count: 66 },
+    { label: "Early Bird Deal", count: 1 },
+    { label: "Last Minute Deal", count: 1 },
+    { label: "Couple Friendly", count: 85 },
+    { label: "Free Cancellation ", count: 815 },
+    { label: "Free Breakfast", count: 117 },
+    { label: "Pay At Hotel ", count: 4 },
   ];
 
   return (

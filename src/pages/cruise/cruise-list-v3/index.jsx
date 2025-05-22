@@ -9,8 +9,8 @@ import MapPropertyFinder from "@/components/cruise-list/common/MapPropertyFinder
 import MetaComponent from "@/components/common/MetaComponent";
 
 const metadata = {
-  title: "Cruise List v3 || GoTrip - Travel & Tour ReactJs Template",
-  description: "GoTrip - Travel & Tour ReactJs Template",
+  title: "Cruise List v3 || Py Ollive -- Hotel Rooms & Conference Hall Booking ",
+  description: "Py Ollive -- Hotel Rooms & Conference Hall Booking ",
 };
 
 const CruiseListPage3 = () => {

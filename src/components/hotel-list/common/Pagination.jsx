@@ -33,7 +33,7 @@ const Pagination = () => {
   };
 
   return (
-    <div className="border-top-light mt-30 pt-30">
+    <div className=" mt-30 pt-30">
       <div className="row x-gap-10 y-gap-20 justify-between md:justify-center">
         <div className="col-auto md:order-1">
           <button className="button -blue-1 size-40 rounded-full border-light">
@@ -56,11 +56,7 @@ const Pagination = () => {
             {renderPages()}
           </div>
 
-          <div className="text-center mt-30 md:mt-10">
-            <div className="text-14 text-light-1">
-              1 – 20 of 300+ properties found
-            </div>
-          </div>
+          
         </div>
 
         <div className="col-auto md:order-2">

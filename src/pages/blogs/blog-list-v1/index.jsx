@@ -8,8 +8,8 @@ import Blog1 from "@/components/blog/Blog1";
 import MetaComponent from "@/components/common/MetaComponent";
 
 const metadata = {
-  title: "Blog List V1 || GoTrip - Travel & Tour ReactJs Template",
-  description: "GoTrip - Travel & Tour ReactJs Template",
+  title: "Blog List V1 || Py Ollive -- Hotel Rooms & Conference Hall Booking ",
+  description: "Py Ollive -- Hotel Rooms & Conference Hall Booking ",
 };
 
 const BlogListV1 = () => {

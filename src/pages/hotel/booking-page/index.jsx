@@ -6,8 +6,8 @@ import StepperBooking from "@/components/booking-page/stepper-booking";
 import MetaComponent from "@/components/common/MetaComponent";
 
 const metadata = {
-  title: "Hotel Booking Page || GoTrip - Travel & Tour ReactJs Template",
-  description: "GoTrip - Travel & Tour ReactJs Template",
+  title: "Hotel Booking Page || Py Ollive -- Hotel Rooms & Conference Hall Booking ",
+  description: "Py Ollive -- Hotel Rooms & Conference Hall Booking ",
 };
 
 const BookingPage = () => {

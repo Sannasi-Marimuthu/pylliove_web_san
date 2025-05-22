@@ -4,8 +4,8 @@ import DashboardPage from "../../../../components/dashboard/dashboard/db-dashboa
 import MetaComponent from "@/components/common/MetaComponent";
 
 const metadata = {
-  title: "Dashboard || GoTrip - Travel & Tour ReactJs Template",
-  description: "GoTrip - Travel & Tour ReactJs Template",
+  title: "Dashboard || Py Ollive -- Hotel Rooms & Conference Hall Booking ",
+  description: "Py Ollive -- Hotel Rooms & Conference Hall Booking ",
 };
 
 export default function DBDashboard() {

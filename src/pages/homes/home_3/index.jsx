@@ -16,8 +16,8 @@ import WhyChoose from "@/components/home/home-3/WhyChoose";
 import MetaComponent from "@/components/common/MetaComponent";
 
 const metadata = {
-  title: "Home-3 || GoTrip - Travel & Tour ReactJs Template",
-  description: "GoTrip - Travel & Tour ReactJs Template",
+  title: "Home-3 || Py Ollive -- Hotel Rooms & Conference Hall Booking ",
+  description: "Py Ollive -- Hotel Rooms & Conference Hall Booking ",
 };
 
 const Home_3 = () => {

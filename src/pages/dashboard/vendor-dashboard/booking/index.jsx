@@ -4,8 +4,8 @@ import DashboardPage from "../../../../components/dashboard/vendor-dashboard/boo
 import MetaComponent from "@/components/common/MetaComponent";
 
 const metadata = {
-  title: "Vendor History || GoTrip - Travel & Tour ReactJs Template",
-  description: "GoTrip - Travel & Tour ReactJs Template",
+  title: "Vendor History || Py Ollive -- Hotel Rooms & Conference Hall Booking ",
+  description: "Py Ollive -- Hotel Rooms & Conference Hall Booking ",
 };
 
 export default function VendorBooking() {

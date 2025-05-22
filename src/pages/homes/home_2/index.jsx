@@ -15,8 +15,8 @@ import FilterHotels3 from "@/components/hotels/FilterHotels3";
 import MetaComponent from "@/components/common/MetaComponent";
 
 const metadata = {
-  title: "Home-2 || GoTrip - Travel & Tour ReactJs Template",
-  description: "GoTrip - Travel & Tour ReactJs Template",
+  title: "Home-2 || Py Ollive -- Hotel Rooms & Conference Hall Booking ",
+  description: "Py Ollive -- Hotel Rooms & Conference Hall Booking ",
 };
 
 const Home_2 = () => {

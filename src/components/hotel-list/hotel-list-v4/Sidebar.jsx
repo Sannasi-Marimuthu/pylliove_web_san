@@ -6,7 +6,7 @@ import AminitesFilter from "../sidebar/AminitesFilter";
 import RatingsFilter from "../sidebar/RatingsFilter";
 import GuestRatingFilters from "../sidebar/GuestRatingFilters";
 import StyleFilter from "../sidebar/StyleFilter";
-import NeighborhoddFilter from "../sidebar/NeighborhoddFilter";
+import NeighborhoddFilter from "../sidebar/PaymentModes";
 import PirceSlider from "../sidebar/PirceSlider";
 
 const Sidebar = () => {

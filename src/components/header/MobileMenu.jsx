@@ -44,7 +44,7 @@ const MobileMenu = () => {
     <>
       <div className="pro-header d-flex align-items-center justify-between border-bottom-light">
         <Link to="/">
-          <img src="/img/general/logo-dark.svg" alt="brand" />
+          <img src="/img/general/pylliove_logo1.png" alt="brand" width={100} />
         </Link>
         {/* End logo */}
 
@@ -61,190 +61,54 @@ const MobileMenu = () => {
 
       <Sidebar width="400" backgroundColor="#fff">
         <Menu>
-          <SubMenu
-            label="Home"
-            className={
-              homeItems.some(
-                (item) =>
-                  item.routePath?.split("/")[1] == pathname.split("/")[1],
-              )
-                ? "menu-active-link"
-                : ""
-            }
-          >
-            {homeItems.map((item, i) => (
-              <MenuItem
-                key={i}
-                onClick={() => navigate(item.routePath)}
-                className={
-                  isActiveLink(item.routePath, pathname)
-                    ? "menu-active-link"
-                    : "inactive-menu"
-                }
-              >
-                {item.name}
-              </MenuItem>
-            ))}
-          </SubMenu>
-          {/* End  All Home Menu */}
 
-          <SubMenu
-            label="Categories"
-            className={isActiveParent ? "menu-active-link" : ""}
-          >
-            {categorieMobileItems.map((item) => (
-              <SubMenu
-                label={item.title}
-                key={item.id}
-                className={
-                  isActiveNestedParent == item.id
-                    ? "menu-active-link"
-                    : "inactive-menu"
-                }
-              >
-                {item.menuItems.map((single) => (
-                  <SubMenu
-                    label={single.title}
-                    key={single.id}
-                    className={
-                      isActiveNestedParentTwo == single.title
-                        ? "menu-active-link"
-                        : "inactive-menu"
-                    }
-                  >
-                    {single.menuList.map((menu, i) => (
-                      <MenuItem
-                        key={i}
-                        onClick={() => navigate(menu.routePath)}
-                        className={
-                          isActiveLink(menu.routePath, pathname)
-                            ? "menu-active-link"
-                            : "inactive-menu"
-                        }
-                      >
-                        {menu.name}
-                      </MenuItem>
-                    ))}
-                  </SubMenu>
-                ))}
-              </SubMenu>
-            ))}
-          </SubMenu>
-          {/* End  All Categories Menu */}
+
 
           <MenuItem
-            onClick={() => navigate("/destinations")}
-            className={pathname === "/destinations" ? "menu-active-link" : ""}
+            onClick={() => navigate("/#")}
+            className={pathname === "/#" ? "menu-active-link" : ""}
           >
-            Desitinations
+            Properties
           </MenuItem>
-          {/* End  Desitinations Menu */}
+          {/* End  Properties Menu */}
 
-          <SubMenu
-            label="Blog"
-            className={
-              blogItems.some(
-                (item) =>
-                  item.routePath?.split("/")[1] == pathname.split("/")[1],
-              )
-                ? "menu-active-link"
-                : ""
-            }
-          >
-            {blogItems.map((item, i) => (
-              <MenuItem
-                key={i}
-                onClick={() => navigate(item.routePath)}
-                className={
-                  isActiveLink(item.routePath, pathname)
-                    ? "menu-active-link"
-                    : "inactive-menu"
-                }
-              >
-                {item.name}
-              </MenuItem>
-            ))}
-          </SubMenu>
-          {/* End  All Blog Menu */}
-
-          <SubMenu
-            label="Pages"
-            className={
-              pageItems.some(
-                (item) =>
-                  item.routePath?.split("/")[1] == pathname.split("/")[1],
-              )
-                ? "menu-active-link"
-                : ""
-            }
-          >
-            {pageItems.map((item, i) => (
-              <MenuItem
-                key={i}
-                onClick={() => navigate(item.routePath)}
-                className={
-                  isActiveLink(item.routePath, pathname)
-                    ? "menu-active-link"
-                    : "inactive-menu"
-                }
-              >
-                {item.name}
-              </MenuItem>
-            ))}
-          </SubMenu>
-          {/* End  All Pages Menu */}
-
-          <SubMenu
-            label="Dashboard"
-            className={
-              pathname.split("/")[1] == "dashboard" ||
-              pathname.split("/")[1] == "vendor-dashboard"
-                ? "menu-active-link"
-                : ""
-            }
-          >
-            {dashboardItems.map((item, i) => (
-              <MenuItem
-                key={i}
-                onClick={() => navigate(item.routePath)}
-                className={
-                  isActiveLink(item.routePath, pathname)
-                    ? "menu-active-link"
-                    : "inactive-menu"
-                }
-              >
-                {item.name}
-              </MenuItem>
-            ))}
-          </SubMenu>
-          {/* End  All Dashboard Menu */}
-
+            
           <MenuItem
-            onClick={() => navigate("/contact")}
-            className={pathname === "/contact" ? "menu-active-link" : ""}
+            onClick={() => navigate("/#")}
+            className={pathname === "/#" ? "menu-active-link" : ""}
           >
-            Contact
+            Attractions
           </MenuItem>
-          {/* End Contact  Menu */}
+          {/* End  Attractions Menu */}
+
+
+          
+          <MenuItem
+            onClick={() => navigate("/#")}
+            className={pathname === "/#" ? "menu-active-link" : ""}
+          >
+            Popular
+          </MenuItem>
+          {/* End  Popular Menu */}
+
+
+
+
+
+          
         </Menu>
       </Sidebar>
 
       <div className="mobile-footer px-20 py-5 border-top-light"></div>
 
       <div className="pro-footer">
-        <ContactInfo />
-        <div className="mt-10">
-          <h5 className="text-16 fw-500 mb-10">Follow us on social media</h5>
-          <div className="d-flex x-gap-20 items-center">
-            <Social />
-          </div>
-        </div>
+     
         <div className="mt-20">
           <Link
-            className=" button -dark-1 px-30 fw-400 text-14 bg-blue-1 h-50 text-white"
-            to="/login"
+            className=" button -dark-1 px-30 fw-400 text-14 bg-blue-1 h-50 text-white rounded-2"
+            to="/#"
           >
-            Become An Expert
+            My Trips
           </Link>
         </div>
       </div>

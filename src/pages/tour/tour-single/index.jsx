@@ -18,8 +18,8 @@ import TourGallery from "@/components/tour-single/TourGallery";
 import MetaComponent from "@/components/common/MetaComponent";
 
 const metadata = {
-  title: "Tour Single || GoTrip - Travel & Tour ReactJs Template",
-  description: "GoTrip - Travel & Tour ReactJs Template",
+  title: "Tour Single || Py Ollive -- Hotel Rooms & Conference Hall Booking ",
+  description: "Py Ollive -- Hotel Rooms & Conference Hall Booking ",
 };
 
 const TourSingleV1Dynamic = () => {

@@ -10,8 +10,8 @@ import BlogPagination from "@/components/blog/BlogPagination";
 import MetaComponent from "@/components/common/MetaComponent";
 
 const metadata = {
-  title: "Blog List V2 || GoTrip - Travel & Tour ReactJs Template",
-  description: "GoTrip - Travel & Tour ReactJs Template",
+  title: "Blog List V2 || Py Ollive -- Hotel Rooms & Conference Hall Booking ",
+  description: "Py Ollive -- Hotel Rooms & Conference Hall Booking ",
 };
 
 const BlogListV2 = () => {

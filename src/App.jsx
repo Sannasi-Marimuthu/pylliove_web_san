@@ -17,6 +17,8 @@ if (typeof window !== "undefined") {
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import ScrollTopBehaviour from "./components/common/ScrollTopBehaviour";
 import Home from "./pages";
+import HotelList from "./pages/hotel/hotel-list";
+
 import Home_1 from "./pages/homes/home_1";
 import Home_2 from "./pages/homes/home_2";
 import Home_3 from "./pages/homes/home_3";
@@ -95,6 +97,8 @@ function App() {
           <Routes>
             <Route path="/">
               <Route index element={<Home />} />
+              <Route path="hotelList" element={<HotelList />} />
+
               <Route path="home_1" element={<Home_1 />} />
               <Route path="home_2" element={<Home_2 />} />
               <Route path="home_3" element={<Home_3 />} />

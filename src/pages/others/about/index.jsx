@@ -13,8 +13,8 @@ import Brand from "@/components/brand/Brand";
 import MetaComponent from "@/components/common/MetaComponent";
 
 const metadata = {
-  title: "About || GoTrip - Travel & Tour ReactJs Template",
-  description: "GoTrip - Travel & Tour ReactJs Template",
+  title: "About || Py Ollive -- Hotel Rooms & Conference Hall Booking ",
+  description: "Py Ollive -- Hotel Rooms & Conference Hall Booking ",
 };
 
 const About = () => {

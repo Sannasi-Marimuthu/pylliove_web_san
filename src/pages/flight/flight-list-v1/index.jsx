@@ -10,8 +10,8 @@ import Sidebar from "@/components/flight-list/flight-list-v1/Sidebar";
 import MetaComponent from "@/components/common/MetaComponent";
 
 const metadata = {
-  title: "Flight List v1 || GoTrip - Travel & Tour ReactJs Template",
-  description: "GoTrip - Travel & Tour ReactJs Template",
+  title: "Flight List v1 || Py Ollive -- Hotel Rooms & Conference Hall Booking ",
+  description: "Py Ollive -- Hotel Rooms & Conference Hall Booking ",
 };
 
 const FlightListPage1 = () => {

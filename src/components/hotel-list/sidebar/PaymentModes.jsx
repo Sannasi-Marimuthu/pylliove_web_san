@@ -1,12 +1,9 @@
 const neighborhoods = [
-  { name: "Central London", count: 92 },
-  { name: "Guests' favourite area", count: 45 },
-  { name: "Westminster Borough", count: 21 },
-  { name: "Kensington and Chelsea", count: 78 },
-  { name: "Oxford Street", count: 679 },
+  { name: "Pay At Hotel", count: 92 },
+  { name: "Book@ 0", count: 845 },
 ];
 
-const NeighborhoddFilter = () => {
+const PaymentModes = () => {
   return (
     <>
       {neighborhoods.map((neighborhood, index) => (
@@ -30,4 +27,4 @@ const NeighborhoddFilter = () => {
   );
 };
 
-export default NeighborhoddFilter;
+export default PaymentModes;

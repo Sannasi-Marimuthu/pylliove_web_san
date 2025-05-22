@@ -3,7 +3,7 @@ const StyleFilter = () => {
     { label: "Budget", count: 92 },
     { label: "Mid-range", count: 45 },
     { label: "Luxury", count: 21 },
-    { label: "Family-friendly", count: 78 },
+    { label: "Property type", count: 78 },
     { label: "Business", count: 679 },
   ];
 

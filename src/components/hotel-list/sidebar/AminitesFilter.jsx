@@ -1,10 +1,7 @@
 const AmenitiesFilter = () => {
   const amenities = [
-    { name: "Breakfast Included", count: 92 },
-    { name: "Romantic", count: 45 },
-    { name: "Airport Transfer", count: 21 },
-    { name: "WiFi Included", count: 78 },
-    { name: "5 Star", count: 679 },
+    { name: "Garden View ", count: 25 },
+    { name: "City View", count: 25 },
   ];
 
   return (

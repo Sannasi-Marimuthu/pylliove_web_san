@@ -7,8 +7,8 @@ import MetaComponent from "@/components/common/MetaComponent";
 import Navbar from "@/components/navbar/Navbar";
 
 const metadata = {
-  title: "Sign Up || GoTrip - Travel & Tour ReactJs Template",
-  description: "GoTrip - Travel & Tour ReactJs Template",
+  title: "Sign Up || Py Ollive -- Hotel Rooms & Conference Hall Booking ",
+  description: "Py Ollive -- Hotel Rooms & Conference Hall Booking ",
 };
 
 const SignUp = () => {

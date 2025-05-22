@@ -13,8 +13,8 @@ import HotelTypes from "@/components/home/home-7/HotelTypes";
 import MetaComponent from "@/components/common/MetaComponent";
 
 const metadata = {
-  title: "Home-7 || GoTrip - Travel & Tour ReactJs Template",
-  description: "GoTrip - Travel & Tour ReactJs Template",
+  title: "Home-7 || Py Ollive -- Hotel Rooms & Conference Hall Booking ",
+  description: "Py Ollive -- Hotel Rooms & Conference Hall Booking ",
 };
 
 const Home_7 = () => {

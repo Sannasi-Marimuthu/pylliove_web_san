@@ -4,8 +4,8 @@ import DashboardPage from "../../../../components/dashboard/dashboard/db-wishlis
 import MetaComponent from "@/components/common/MetaComponent";
 
 const metadata = {
-  title: "Wishlist || GoTrip - Travel & Tour ReactJs Template",
-  description: "GoTrip - Travel & Tour ReactJs Template",
+  title: "Wishlist || Py Ollive -- Hotel Rooms & Conference Hall Booking ",
+  description: "Py Ollive -- Hotel Rooms & Conference Hall Booking ",
 };
 
 export default function DBWishlist() {
