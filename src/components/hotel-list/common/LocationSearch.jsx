@@ -39,27 +39,36 @@ const SearchBar = () => {
 
   return (
     <>
-      <div className="searchMenu-loc px-30 lg:py-20 lg:px-0 js-form-dd js-liverSearch" >
+      <div className="searchMenu-loc px-30 lg:py-20 lg:px-0 js-form-dd js-liverSearch">
         <div
           data-bs-toggle="dropdown"
           data-bs-auto-close="true"
           data-bs-offset="0,22"
-          
         >
           <h4 className="text-15 fw-500 ls-2 lh-16">Location</h4>
-          <div className="text-15 text-light-1 ls-2 lh-16"  style={{backgroundColor:"#eff8f4", padding:"15px", borderRadius:"10px", width:"310px"}}>
-              <div className="d-flex items-center">
-                <i className="icon-location text-16" style={{color:"#051036"}}/>
-            <input
-              autoComplete="off"
-              type="search"
-              placeholder="Where are you going?"
-              className="js-search js-dd-focus"
-              value={searchValue}
-              onChange={(e) => setSearchValue(e.target.value)}
-            />
-              </div>
-              
+          <div
+            className="text-15 text-light-1 ls-2 lh-16"
+            style={{
+              backgroundColor: "#eff8f4",
+              padding: "15px",
+              borderRadius: "10px",
+              width: "250px",
+            }}
+          >
+            <div className="d-flex items-center">
+              <i
+                className="icon-location text-16"
+                style={{ color: "#051036" }}
+              />
+              <input
+                autoComplete="off"
+                type="search"
+                placeholder="Where are you going?"
+                className="js-search js-dd-focus"
+                value={searchValue}
+                onChange={(e) => setSearchValue(e.target.value)}
+              />
+            </div>
           </div>
         </div>
         {/* End location Field */}

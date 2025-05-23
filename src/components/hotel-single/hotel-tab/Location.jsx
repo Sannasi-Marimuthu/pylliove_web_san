@@ -1,114 +1,179 @@
-import React from "react";
-
 const Location = () => {
   return (
-    <div>
-      <div className="container" style={{backgroundColor:"#fff", padding:"50px", boxShadow:"2px 3px 3px 2px gray", borderRadius:"20px"}}>
-        <div className="row ml-0 mr-0 items-center justify-content-evenly">
-          <div className="col-xl-6 px-0">
-            <h3 className="text-22">Location</h3>
-            <img
-              className="col-12" style={{width:"30em", borderRadius:"10px"}}
-              src="https://www.shutterstock.com/shutterstock/videos/1093448511/thumb/11.jpg?ip=x480"
-              alt="image" 
-            />
-          </div>
-          {/* End .col */}
+    <>
+      
+        <div
+          className={`bg-white rounded-4 px-30 py-30 sm:px-20 sm:py-20`} style={{boxShadow: "1px 0px 0px 2px rgba(0, 0, 0, 0.4)",height:"420px"}}
+      
+        >
+          <div className="row y-gap-10">
 
-          <div className="col-lg-4 px-0" style={{backgroundColor:"#fff", padding:"30px", boxShadow:"0px 1px 0px 2px gray", borderRadius:"20px"}}>
-            <h3 className="text-22">Key Landmarks</h3>
-            <div className="d-flex flex-column ">
-              <div className="d-flex justify-content-between items-center">
-                <i class="icon-check text-10 mr-20"></i>
+            <div className="col-xl">
+            <div style={{width:"50em"}}>
+                  <h5 className="text-22 ">Location</h5>
+              <div className="ratio ratio-1:1 col-12 col-md-4 col-xl-12 mt-2">
+               
                 <img
-                  src="https://www.hotelscombined.in/himg/7b/e1/01/leonardo-104158-160195427-279728.jpg"
-                  alt=""
-                  width={60}
-                  style={{ borderRadius: "10px" }}
+                  src="https://www.shutterstock.com/shutterstock/videos/3672952523/thumb/1.jpg?ip=x480"
+                  alt="image"
+                  className="img-ratio rounded-4"
+                  style={{ width: "700px", height: "290px" ,  boxShadow: "1px 0px 0px 2px rgba(0, 0, 0, 0.4)",borderRadius:"20px"}}
                 />
-                <p className="text-18">Meenambakkam Railway Station</p>
-
-                <div>
-                  <img
-                    src="https://cdn-icons-png.flaticon.com/512/3148/3148411.png"
-                    alt=""
-                    width={15}
-                    style={{ marginLeft: "5px" ,}}
-                  />
-                  <div className="text-12">2.2 Km</div>
-                </div>
+             
               </div>
+              {/* image */}
+            </div>
+            </div>
+            {/* End col-xl-atuo */}
 
-              <div className="d-flex justify-content-between items-center mt-10">
-                <i class="icon-check text-10 mr-20"></i>
-                <img
-                  src="https://www.momondo.in/himg/b3/9b/8f/revato-550852-12386707-632586.jpg"
-                  alt=""
-                  width={60}
-                  style={{ borderRadius: "10px", marginRight:"50px" }}
-                />
-                <p className="text-18">Trisulam Railway Station</p>
+            <div className="col-xl" >
 
-                <div>
-                  <img
-                    src="https://cdn-icons-png.flaticon.com/512/3148/3148411.png"
-                    alt=""
-                    width={15}
-                    style={{ marginLeft: "5px" }}
-                  />
-                  <div className="text-12">1.2 Km</div>
+              <h5 className="text-18 ">Key Landmarks</h5>
+              <div
+                className={`bg-white rounded-4 px-20 py-10 mt-5`}
+                style={{
+                  boxShadow: "1px 0px 0px 2px rgba(0, 0, 0, 0.4)", 
+                }}
+              >
+                <div className="d-flex justify-content-between items-center mt-2">
+                  <div className=" text-green-2">
+                    <i className="icon-check text-12 mr-10" />
+                  </div>
+                  <div>
+                    <img
+                      src="https://thumbs.dreamstime.com/b/wooden-wall-bedroom-corner-poster-wooden-wall-loft-bedroom-luxury-hotel-room-corner-wooden-floor-walls-king-114421303.jpg"
+                      alt="hotel room"
+                      style={{
+                        width: "70px",
+                        height: "50px",
+                        borderRadius: "2px",
+                        border: " 1px solid rgba(0, 0, 0, 0.4)",
+                      }}
+                    />
+                  </div>
+                  <div className="text-15 fw-500 mb-10">
+                    Kamakshi Amman Temple <br />
+                    <span className="text-12 text-light-1">
+                      ( tourist Attraction )
+                    </span>{" "}
+                  </div>
+                  <div className="pl-40 lg:pl-0">
+                    <a
+                      href="#"
+                      className="button h-40 px-20 -dark-1 bg-blue-1 text-white mt-5"
+                      style={{ width: "10px", borderRadius: "50%" }}
+                    >
+                      <div className="icon-arrow-top-right" />
+                    </a>
+                    <div className="text-14 lh-14 text-light-1 mb-5">3.5km</div>
+                  </div>
                 </div>
-              </div>
-
-              <div className="d-flex justify-content-between items-center mt-10">
-                <i class="icon-check text-10 mr-20"></i>
-                <img
-                  src="https://www.hotelscombined.in/himg/7b/e1/01/leonardo-104158-160195427-279728.jpg"
-                  alt=""
-                  width={60}
-                  style={{ borderRadius: "10px" }}
-                />
-                <p className="text-18">Subramanya Swamy 
-
-Temple</p>
-
-                <div>
-                  <img
-                    src="https://cdn-icons-png.flaticon.com/512/3148/3148411.png"
-                    alt=""
-                    width={15}
-                    style={{ marginLeft: "5px" }}
-                  />
-                  <div className="text-12">2.2 Km</div>
+                <div className="d-flex justify-content-between items-center">
+                  <div className=" text-green-2">
+                    <i className="icon-check text-12 mr-10" />
+                  </div>
+                  <div>
+                    <img
+                      src="https://thumbs.dreamstime.com/b/wooden-wall-bedroom-corner-poster-wooden-wall-loft-bedroom-luxury-hotel-room-corner-wooden-floor-walls-king-114421303.jpg"
+                      alt="hotel room"
+                      style={{
+                        width: "70px",
+                        height: "50px",
+                        borderRadius: "2px",
+                        border: " 1px solid rgba(0, 0, 0, 0.4)",
+                      }}
+                    />
+                  </div>
+                  <div className="text-15 fw-500 mb-10">
+                    Kamakshi Amman Temple <br />
+                    <span className="text-12 text-light-1">
+                      ( tourist Attraction )
+                    </span>{" "}
+                  </div>
+                  <div className="pl-40 lg:pl-0">
+                    <a
+                      href="#"
+                      className="button h-40 px-20 -dark-1 bg-blue-1 text-white mt-5"
+                      style={{ width: "10px", borderRadius: "50%" }}
+                    >
+                      <div className="icon-arrow-top-right" />
+                    </a>
+                    <div className="text-14 lh-14 text-light-1 mb-5">3.5km</div>
+                  </div>
                 </div>
-              </div>
 
-               <div className="d-flex justify-content-between items-center mt-10">
-                <i class="icon-check text-10 mr-20"></i>
-                <img
-                  src="https://www.momondo.in/himg/b3/9b/8f/revato-550852-12386707-632586.jpg"
-                  alt=""
-                  width={60}
-                  style={{ borderRadius: "10px" }}
-                />
-                <p className="text-18">Trisulam Railway Station</p>
+                <div className="d-flex justify-content-between items-center">
+                  <div className=" text-green-2">
+                    <i className="icon-check text-12 mr-10" />
+                  </div>
+                  <div>
+                    <img
+                      src="https://thumbs.dreamstime.com/b/wooden-wall-bedroom-corner-poster-wooden-wall-loft-bedroom-luxury-hotel-room-corner-wooden-floor-walls-king-114421303.jpg"
+                      alt="hotel room"
+                      style={{
+                        width: "70px",
+                        height: "50px",
+                        borderRadius: "2px",
+                        border: " 1px solid rgba(0, 0, 0, 0.4)",
+                      }}
+                    />
+                  </div>
+                  <div className="text-15 fw-500 mb-10">
+                    Kamakshi Amman Temple <br />
+                    <span className="text-12 text-light-1">
+                      ( tourist Attraction )
+                    </span>{" "}
+                  </div>
+                  <div className="pl-40 lg:pl-0">
+                    <a
+                      href="#"
+                      className="button h-40 px-20 -dark-1 bg-blue-1 text-white mt-5"
+                      style={{ width: "10px", borderRadius: "50%" }}
+                    >
+                      <div className="icon-arrow-top-right" />
+                    </a>
+                    <div className="text-14 lh-14 text-light-1 mb-5">3.5km</div>
+                  </div>
+                </div>
 
-                <div>
-                  <img
-                    src="https://cdn-icons-png.flaticon.com/512/3148/3148411.png"
-                    alt=""
-                    width={15}
-                    style={{ marginLeft: "5px" }}
-                  />
-                  <div className="text-12">1.2 Km</div>
+                <div className="d-flex justify-content-between items-center">
+                  <div className=" text-green-2">
+                    <i className="icon-check text-12 mr-10" />
+                  </div>
+                  <div>
+                    <img
+                      src="https://thumbs.dreamstime.com/b/wooden-wall-bedroom-corner-poster-wooden-wall-loft-bedroom-luxury-hotel-room-corner-wooden-floor-walls-king-114421303.jpg"
+                      alt="hotel room"
+                      style={{
+                        width: "70px",
+                        height: "50px",
+                        borderRadius: "2px",
+                        border: " 1px solid rgba(0, 0, 0, 0.4)",
+                      }}
+                    />
+                  </div>
+                  <div className="text-15 fw-500 mb-10">
+                    Kamakshi Amman Temple <br />
+                    <span className="text-12 text-light-1">
+                      ( tourist Attraction )
+                    </span>{" "}
+                  </div>
+                  <div className="pl-40 lg:pl-0">
+                    <a
+                      href="#"
+                      className="button h-40 px-20 -dark-1 bg-blue-1 text-white mt-5"
+                      style={{ width: "10px", borderRadius: "50%" }}
+                    >
+                      <div className="icon-arrow-top-right" />
+                    </a>
+                    <div className="text-14 lh-14 text-light-1 mb-5">3.5km</div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-          {/* End .col */}
         </div>
-      </div>
-    </div>
+    </>
   );
 };
 

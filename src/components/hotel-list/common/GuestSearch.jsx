@@ -68,7 +68,7 @@ const GuestSearch = () => {
     setGuestCounts((prevState) => ({ ...prevState, [name]: value }));
   };
   return (
-    <div className="searchMenu-guests px-20  lg:py-20 lg:px-0 js-form-dd  position-relative" >
+    <div className="searchMenu-guests px-20  lg:py-20 lg:px-0 js-form-dd  position-relative">
       <div
         data-bs-toggle="dropdown"
         data-bs-auto-close="outside"
@@ -76,10 +76,38 @@ const GuestSearch = () => {
         data-bs-offset="0,22"
       >
         <h4 className="text-15 fw-500 ls-2 lh-16">Guest</h4>
-        <div className="text-15 text-light-1 ls-2 lh-16" style={{backgroundColor:"#eff8f4", padding:"15px", borderRadius:"10px", width:"280px"}}>
-          <span className="js-count-adult">{guestCounts.Adults}</span> adults -{" "}
-          <span className="js-count-child">{guestCounts.Children}</span>{" "}
-          childeren - <span className="js-count-room">{guestCounts.Rooms}</span>{" "}
+        <div
+          className="text-15 text-light-1 ls-2 lh-16"
+          style={{
+            backgroundColor: "#eff8f4",
+            padding: "15px",
+            borderRadius: "10px",
+            width: "300px",
+          }}
+        >
+          <span className="js-count-adult">
+            <img
+              src="https://cdn-icons-png.freepik.com/256/13748/13748957.png?semt=ais_hybrid"
+              alt=""
+              width={20}
+            />{" "}
+            {guestCounts.Adults}
+          </span>{" "}
+          adults -{" "}
+          <span className="js-count-child">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvOhkgSoNQdaaboxQCY3aHppuuvUeBQ2205g&s"
+              alt=""
+              width={15}
+            />{" "}
+           
+            {guestCounts.Children}
+          </span>{" "}
+          childeren - <span className="js-count-room">  <img
+              src="https://static-00.iconduck.com/assets.00/hotel-accommodation-icon-2048x2048-lex4u1xc.png"
+              alt=""
+              width={20}
+            />{" "}{guestCounts.Rooms}</span>{" "}
           room
         </div>
       </div>

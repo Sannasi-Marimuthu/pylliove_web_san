@@ -76,16 +76,16 @@ const MainFilterSearchBox = () => {
                     </p>
                   </div>
 
-                   <div className="col-auto">
+                   {/* <div className="col-auto">
                     <p className="border-light rounded-100 py-5 px-10 text-14 lh-14" style={{color:"#000", fontWeight:"bold", backgroundColor:"#edf3ff"}}>
                       Py Olliv-Highest First
                     </p>
-                  </div>
+                  </div> */}
 
                 </div>
 
           <div>
-            <button className="d-flex  px-40 h-full col-4 justify-content-end" style={{border:"1px solid black", width:"auto", height:"30px" , borderRadius:"30px", backgroundColor:"#eff8f4", }}>
+            <button className="d-flex  px-40 h-full col-4 justify-content-end" style={{border:"1px solid black", width:"22em", height:"30px" , borderRadius:"30px", backgroundColor:"#eff8f4", }}>
              <i className="icon-search text-18 mr-5 mt-1" />
            <span style={{textAlign:"center"}}>    Search Location or Property Name</span>
             </button>

@@ -20,8 +20,8 @@ export default function GalleryTwo({ hotel }) {
         videoId="oqNZOOWF8qM"
         onClose={() => setOpen(false)}
       />
-      <section className="pt-40">
-        <div className="container">
+      <section className="pt-40" >
+        <div className="container"   style={{ backgroundColor:"#fff", padding:"20px", borderRadius:"10px"}}>
           <div className="hotelSingleGrid">
             <div>
               <Gallery>
@@ -155,7 +155,7 @@ and a host of amenities.</p>
                   </div>
                 </div>
 
-                <div className="d-flex justify-content-between">
+                <div className="d-flex justify-content-between mt-3">
                   
                     <p className="text-14">Restaurant</p>
                     <p className="text-14">Gym</p>
@@ -171,23 +171,6 @@ and a host of amenities.</p>
 
              
 
-              <div id="overview" className="row y-gap-40 pt-40 ">
-                <div className="col-12">
-                  <Overview />
-                </div>
-                {/* End col-12 */}
-
-                <div className="col-12">
-                  <h3 className="text-22 fw-500 pt-40 border-top-light">
-                    Most Popular Facilities
-                  </h3>
-                  <div className="row y-gap-10 pt-20">
-                    <PopularFacilities />
-                  </div>
-                </div>
-                {/* End .col-12  */}
-              </div>
-              {/* End .col-12  Overview */}
             </div>
             {/* End left hotel galler  */}
 

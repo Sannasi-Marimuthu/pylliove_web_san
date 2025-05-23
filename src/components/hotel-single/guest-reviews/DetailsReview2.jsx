@@ -1,6 +1,6 @@
 import ReviewGallery from "./ReviewGallery";
 
-const DetailsReview2 = () => {
+const   DetailsReview2 = () => {
   return (
     <div className="row y-gap-40">
       <div className="col-lg-12">

@@ -1,23 +1,68 @@
 import DefaultFooter from "@/components/footer/default";
+import DateSearch from "@/components/hotel-list/common/DateSearch";
+import GuestSearch from "@/components/hotel-list/common/GuestSearch";
+import LocationSearch from "@/components/hotel-list/common/LocationSearch";
 import Hotels from "@/components/hotels/Hotels";
 // import PopularHotels from "@/components/home/PopularHotels";
 import Navbar from "@/components/navbar/Navbar";
 // import Navbar from "@/components/navbar/Navbar";
 // import DefaultFooter from "../../components/footer/default/index";
 import React from "react";
+import { Link } from "react-router-dom";
 
 const MainHome = () => {
   return (
     <div style={{ backgroundColor: "#ecf0f7" }}>
       <Navbar />
 
+      {/* Search Box */}
+      <div className="container" style={{marginTop:"7em"}}>
+        <div
+        className="mainSearch px-20 py-10 lg:px-10 lg:pt-5 lg:pb-20 " 
+        style={{
+          borderRadius: "20px",
+          marginInline: "auto",
+          backgroundColor: "#fff",
+          width: "85%",
+          boxShadow: "2px 2px 5px 2px #aaaaaa",
+          zIndex: "9",
+        }}
+      >
+        <div className="button-grid items-center justify-content-center">
+          <LocationSearch />
+          {/* End Location */}
+
+          <div className="searchMenu-date px-10 lg:py-20  sm:px-20 js-form-dd js-calendar">
+            <div>
+              <h4 className="text-15 fw-500 ls-2 lh-16">
+                Check in - Check out
+              </h4>
+              <DateSearch />
+            </div>
+          </div>
+          {/* End check-in-out */}
+
+          <GuestSearch />
+          {/* End guest */}
+
+          {/* <div className="button-item h-full">
+            <button className="button -dark-1 py-15 px-40 h-full col-12 rounded-0 bg-blue-1 text-white">
+              <i className="icon-search text-20 mr-10" />
+              Search
+            </button>
+          </div> */}
+          {/* End search button_item */}
+        </div>
+      </div>
+      </div>
+
       {/* Popular hotels */}
-      <div className="container" style={{ marginTop: "10rem"}}>
+      <div className="container">
         <div className="relative overflow-hidden pt-40 sm:pt-20 js-section-slider item_gap-x30">
           <Hotels />
         </div>
       </div>
-      
+
       {/* Unique selling proposition */}
 
       <div
