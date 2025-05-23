@@ -12,9 +12,10 @@ import PriceFilter from "./sidebar/PriceFilter";
 import LocationFilter from "./sidebar/LocationFilter";
 import UserRating from "./sidebar/UserRating";
 import ChainsFilter from "./sidebar/ChainsFilter";
-import HouseRules from "./sidebar/houseRules";
+// import HouseRules from "./sidebar/houseRules";
 import PropertyType from "./sidebar/PropertyType";
 import Amenities from "./sidebar/Amenities";
+import HouseRules from "./sidebar/HouseRules";
 
 const Sidebar = () => {
   return (
