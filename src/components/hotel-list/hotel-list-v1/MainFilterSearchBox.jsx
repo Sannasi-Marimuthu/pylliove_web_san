@@ -85,7 +85,7 @@ const MainFilterSearchBox = () => {
                 </div>
 
           <div>
-            <button className="d-flex  px-40 h-full col-4 justify-content-end" style={{border:"1px solid black", width:"22em", height:"30px" , borderRadius:"30px", backgroundColor:"#eff8f4", }}>
+            <button className="d-flex  px-40 h-full col-4 justify-content-end" style={{border:"1px solid black", width:"26em", height:"30px" , borderRadius:"30px", backgroundColor:"#eff8f4", }}>
              <i className="icon-search text-18 mr-5 mt-1" />
            <span style={{textAlign:"center"}}>    Search Location or Property Name</span>
             </button>

@@ -82,7 +82,7 @@ const GuestSearch = () => {
             backgroundColor: "#eff8f4",
             padding: "15px",
             borderRadius: "10px",
-            width: "300px",
+            width: "330px",
           }}
         >
           <span className="js-count-adult">
